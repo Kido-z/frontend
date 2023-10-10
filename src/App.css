@@ -4,10 +4,46 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-FDBF3A: #FDBF3A;
+}
+
 body {
 font-family: 'Raleway', sans-serif;
 }
+
 a {
   text-decoration: none;
   display: inline-block;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+/* Header part */
+.header-upper {
+  box-shadow: 2.72076px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.header-upper .input-group-text {
+  background-color: var(--color-FDBF3A);
+}
+
+.header-upper-logo {
+  width: 60%;
+}
+
+.header-upper .header-upper-links img {
+  width: 40px;
+  height: 40px;
 }
