@@ -6,6 +6,7 @@
 
 :root {
   --color-FDBF3A: #FDBF3A;
+  --color-F26F35: #F26F35;
 }
 
 body {
@@ -30,20 +31,44 @@ a {
   gap: 15px;
 }
 
-/* Header part */
-.header-upper {
-  box-shadow: 2.72076px 8px 24px rgba(0, 0, 0, 0.15);
+.gap-30 {
+  gap: 30px;
 }
 
-.header-upper .input-group-text {
-  background-color: var(--color-FDBF3A);
+.gap-60 {
+  gap: 60px;
+}
+
+/**** Header part ****/
+.header-upper {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
 }
 
 .header-upper-logo {
   width: 60%;
 }
 
+.header-upper .input-group-text,
+.header-upper .form-control {
+  background-color: white;
+  border: none;
+}
+
 .header-upper .header-upper-links img {
   width: 40px;
   height: 40px;
+}
+
+.header-upper .dropdown button,
+.header-upper .header-upper-links p {
+  color: black;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-upper .dropdown-item:hover {
+  background-color: transparent;
+  color: var(--color-F26F35) !important;
 }
