@@ -7,6 +7,7 @@
 :root {
   --color-FDBF3A: #FDBF3A;
   --color-F26F35: #F26F35;
+  --color-F9F9F9: #F9F9F9;
 }
 
 body {
@@ -39,13 +40,14 @@ a {
   gap: 60px;
 }
 
+.header-upper-logo,
+.footer-upper-logo {
+  width: 60%;
+}
+
 /**** Header part ****/
 .header-upper {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
-}
-
-.header-upper-logo {
-  width: 60%;
 }
 
 .header-upper .input-group-text,
@@ -71,4 +73,13 @@ a {
 .header-upper .dropdown-item:hover {
   background-color: transparent;
   color: var(--color-F26F35) !important;
+}
+
+/**** Footer part ****/
+footer {
+  background-color: var(--color-F9F9F9);
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(29, 34, 34, 0.04);
 }
