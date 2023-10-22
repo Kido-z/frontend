@@ -78,9 +78,9 @@ const Header = () => {
         </div>
       </header> */}
 
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex flex-nowrap justify-content-between">
-          <Link className="header-logo m-2 fs-1">
+          <Link className="header-logo m-4">
             <img src="img/logo.svg" alt="Logo Kido'z" />
           </Link>
           <button
@@ -158,7 +158,7 @@ const Header = () => {
             </div>
             <form className="search-bar" role="search">
               <input className="form-control" type="search" placeholder="Rechercher un produit..." aria-label="Rechercher un produit..." />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn" type="submit">
                 <span className="input-group-text" id="basic-addon2">
                   <BsSearch className="fs-6" />
                 </span>

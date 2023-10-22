@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container-xxl">
         <div className="row">
           <div className="col-lg-3 col-md-3">
-            <Link className="footer-upper-logo ">
+            <Link className="footer-upper-logo">
               <img src="img/logo.svg" alt="Logo Kido'z" />
             </Link>
           </div>
