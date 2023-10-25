@@ -8,6 +8,8 @@
   --color-FDBF3A: #FDBF3A;
   --color-F26F35: #F26F35;
   --color-F9F9F9: #F9F9F9;
+  --color-93BEE6: #93BEE6;
+  --color-1FB36E: #1FB36E;
 }
 
 body {
@@ -82,4 +84,31 @@ footer {
 
 footer:not(:first-child) {
   border-top: 1px solid rgba(29, 34, 34, 0.04);
+}
+
+/**** Banner part ****/
+.banner-container {
+  height: 100vh;
+}
+
+.banner-image {
+  background: url(../public/img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  width: 100%;
+  height: 60vh;
+}
+
+.button-link {
+  padding: 12px 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.button-link:hover {
+  opacity: 0.6;
 }
