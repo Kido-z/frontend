@@ -87,10 +87,6 @@ footer:not(:first-child) {
 }
 
 /**** Banner part ****/
-.banner-container {
-  height: 100vh;
-}
-
 .banner-image {
   background: url(../public/img/banner.jpg);
   background-size: cover;
@@ -111,4 +107,10 @@ footer:not(:first-child) {
 
 .button-link:hover {
   opacity: 0.6;
+}
+
+/**** Section detail part ****/
+.container .col-lg-4 {
+  text-align: center;
+  margin-bottom: 5vh;
 }
