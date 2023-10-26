@@ -7,22 +7,22 @@ const Homepage = () => {
       <section className="banner-container">
         <div className="container-fluid">
           <div className="row">
-            <div className="banner-image d-flex flex-column align-items-end justify-content-center pe-5">
+            <div className="banner-image d-flex flex-column align-items-end justify-content-center">
               <h1 class="display-4 fw-bold text-dark">Découvrez notre sélection</h1>
-              <div class="button-banner d-flex flex-row gap-3">
+              <div class="button-banner d-flex flex-row">
                 <div class="button-group me-2">
-                  <Link class="button-link btn-primary" style={{background: "#93BEE6"}}>
+                  <Link class="button-link" style={{background: "#93BEE6"}}>
                     De 0 à 1 an
                   </Link>
                 </div>
                 <div class="button-group me-2">
-                  <Link class="button-link btn-secondary" style={{background: "#FDBF3A"}}>
+                  <Link class="button-link" style={{background: "#FDBF3A"}}>
                   De 2 à 5 ans
                   </Link>
                 </div>
-                <div class="button-group me-2">
-                  <Link class="button-link btn-third" style={{background: "#1FB36E"}}>
-                  À partir de 6 ans
+                <div class="button-group">
+                  <Link class="button-link" style={{background: "#1FB36E"}}>
+                  De 6 à 12 ans
                   </Link>
                 </div>
               </div>
