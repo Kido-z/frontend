@@ -13,6 +13,15 @@
   --color-5555555e: #5555555e;
 }
 
+.section-heading {
+  font-size: 1.5rem;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 body {
 font-family: 'Raleway', sans-serif;
 }
@@ -117,6 +126,36 @@ footer:not(:first-child) {
 .container .col-lg-4 {
   text-align: center;
   margin-bottom: 5vh;
+}
+
+/**** Newest Card part ****/
+.newest-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.newest-details {
+  text-align: center;
+}
+
+.newest-card .newest-details h6 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.newest-card .newest-details h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.button-newest {
+  text-align: center;
+}
+
+.button-newest .btn:hover {
+  opacity: 0.6;
 }
 
 /**** Header Responsive part ****/
