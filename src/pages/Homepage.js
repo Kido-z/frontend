@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NewestCard from "../components/NewestCard";
 
 const Homepage = () => {
   return (
@@ -34,14 +35,37 @@ const Homepage = () => {
         <div className="row">
           <h3 className="d-flex align-items-center justify-content-center fw-bold my-5">De supers jouets pour vos Kido’z</h3>
             <div className="col-lg-4">
-              <p>Choisissez des jouets adaptés<br/> et éducatifs pour vos enfants </p>
+              <p>Offrez des jouets abordables et de qualité <br/>à des prix plus bas</p>
             </div>
             <div className="col-lg-4">
-              <p>économisez chaque mois grâce<br/> à l’abonnement mensuel</p>
+              <p>Proposer un large <br/>choix de jouets</p>
             </div>
             <div className="col-lg-4">
-              <p>Faites découvrir de nouveaux jouets<br/> tous les mois à vos enfants</p>
+              <p>Promouvez une consommation <br/>responsable</p>
             </div>
+        </div>
+      </section>
+      <section className="newest py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Nos nouveautés</h3>
+            </div>
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                <div className="col">
+                  <NewestCard />
+                </div>
+                <div className="col">
+                  <NewestCard />
+                </div>
+                <div className="col">
+                  <NewestCard />
+                </div>
+                <div className="col">
+                  <NewestCard />
+                </div>  
+            </div>    
+          </div>
         </div>
       </section>
     </>
