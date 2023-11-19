@@ -158,6 +158,12 @@ footer:not(:first-child) {
   opacity: 0.6;
 }
 
+/**** ourSelection Card part ****/
+/* svg .svg-text {
+  font: bold 40px sans-serif;
+  fill: #1FB36E;
+} */
+
 /**** Header Responsive part ****/
 @media (max-width: 999px) {
   .header-logo {

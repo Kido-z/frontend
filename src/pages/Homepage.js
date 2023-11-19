@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NewestCard from "../components/NewestCard";
+import OurSelection from "../components/OurSelectionCard";
+import AgesCard from "../components/AgesCard";
 
 const Homepage = () => {
   return (
@@ -65,6 +67,42 @@ const Homepage = () => {
                   <NewestCard />
                 </div>  
             </div>    
+          </div>
+        </div>
+      </section>
+      <section className="Ourselection py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Découvrez notre sélection</h3>
+            </div>
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div className="col">
+                  <OurSelection />
+                </div>
+                <div className="col">
+                  <OurSelection />
+                </div>
+                <div className="col">
+                  <OurSelection />
+                </div>  
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section className="ages-details">
+        <div className="row">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-center g-3">
+            <h3 className="section-heading">CHOISIR SELON LES ÂGES</h3>
+            <div className="col">
+              <AgesCard />
+            </div>
+            <div className="col">
+              <AgesCard />
+            </div>
+            <div className="col">
+              <AgesCard />
+            </div>  
           </div>
         </div>
       </section>
