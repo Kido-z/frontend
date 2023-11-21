@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex flex-nowrap justify-content-between">
-          <Link className="header-logo m-4">
+          <Link to="/" className="header-logo m-4">
             <img src="img/logo.svg" alt="Logo Kido'z" />
           </Link>
           <button

@@ -131,9 +131,10 @@ footer:not(:first-child) {
 /**** Newest Card part ****/
 .newest-card {
   background-color: white;
+  color: black;
   border-radius: 10px;
   padding: 15px;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .newest-details {
@@ -158,14 +159,56 @@ footer:not(:first-child) {
   opacity: 0.6;
 }
 
-/**** ourSelection Card part ****/
-/* svg .svg-text {
-  font: bold 40px sans-serif;
-  fill: #1FB36E;
-} */
+/**** Single product page ****/
+.main-product-image {
+  padding: 20px;
+}
 
-/**** Header Responsive part ****/
+.main-product-image > div {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.main-product-image img {
+  width: 100% !important;
+  height: 500px !important;
+  object-fit: cover;
+}
+
+.other-product-images {
+  padding: 20px;
+}
+
+.other-product-images > div {
+  padding: 20px;
+  width: 18%;
+  border-radius: 2%;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.main-product-detail .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.main-product-detail .title-detail {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.main-product-detail .price {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.button-single-product .btn:hover {
+  opacity: 0.6;
+}
+
+/******************************
+********** Responsive *********
+*******************************/
 @media (max-width: 999px) {
+  /**** Header Responsive part ****/
   .header-logo {
     width: 15%;
   }
@@ -182,18 +225,40 @@ footer:not(:first-child) {
 }
 
 @media (max-width: 820px) {
+  /**** Header Responsive part ****/
   .header-logo {
-    width: 35%;
+    width: 15%;
+  }
+  
+  .footer-upper-logo {
+    width: 60%;
+    margin:2rem 0rem;
+  }
+  /**** Single product page ****/
+  .main-product-image img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+  }
+
+  .main-product-detail {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+  }
+}
+
+@media (max-width: 390px) {
+   /**** Header Responsive part ****/
+   .header-logo {
+    width: 25%;
   }
   
   .footer-upper-logo {
     width: 20%;
     margin:2rem 0rem;
   }
-}
 
-/**** Main Banner Responsive part ****/
-@media (max-width: 390px) {
+  /**** Main Banner Responsive part ****/
   .banner-container .button-banner {
     text-align: center;
     justify-content: center;
@@ -204,11 +269,21 @@ footer:not(:first-child) {
     text-align: center;
     color: white !important;
   }
-}
-/* 
 
-@media (max-width: 820px) {
-  .header-logo {
-    width: 35%;
-  } 
-}*/
+  /**** Single product page ****/
+  .main-product-image img {
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover;
+  }
+
+  .main-product-detail {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+  }
+
+  .description-wrapper .col {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
