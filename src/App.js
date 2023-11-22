@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import SingleProduct from './components/SingleProduct';
 import Cart from './pages/Cart';
+import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Forgetpassword from './pages/Forgotpassword';
 import Checkout from './pages/Checkout';
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Homepage />} />
+            <Route path="signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/forgot-password" element={<Forgetpassword />} />
             <Route path="about" element={<About />} />

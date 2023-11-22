@@ -22,7 +22,7 @@ const Login = () => {
               </div>
               <div className="button-principal d-grid gap-2 col-4 mx-auto">
                 <button className="btn btn-primary mb-3" type="submit" style={{background: "#FDBF3A"}}>Se connecter</button>
-                <Link to="/" className="button-register" type="button">Créer un compte</Link>
+                <Link to="/signup" className="button-register" type="button">Créer un compte</Link>
               </div>
             </form>
           </div>

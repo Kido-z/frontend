@@ -228,6 +228,11 @@ footer:not(:first-child) {
   border: 1px solid var(--color-5555555e);
 }
 
+/**** Signup page ****/
+.signup-wrapper {
+  height: 50vh;
+}
+ 
 /**** Login page ****/
 .login-wrapper {
   height: 60vh;
