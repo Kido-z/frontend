@@ -228,6 +228,12 @@ footer:not(:first-child) {
   border: 1px solid var(--color-5555555e);
 }
 
+/**** Checkout page ****/
+.paiement {
+  background-color: var(--color-F9F9F9);
+  border-radius: 10px;
+}
+
 /******************************
 ********** Responsive *********
 *******************************/
