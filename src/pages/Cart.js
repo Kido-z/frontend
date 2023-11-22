@@ -48,7 +48,7 @@ const Cart = () => {
             </div>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-end">
               <Link to="/" className="button-cart btn btn-light" type="button">Continuer mes achats</Link>
-              <Link to="/" className="btn btn-primary" type="button" style={{background: "#FDBF3A"}}>Commander</Link>
+              <Link to="/checkout" className="btn btn-primary" type="button" style={{background: "#FDBF3A"}}>Commander</Link>
             </div>
           </div>
         </div>
