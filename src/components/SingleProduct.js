@@ -30,7 +30,7 @@ const SingleProduct = () => {
                       <p className="title-detail">Cagette de fruits et légumes en bois à découper</p>
                       <p className="price">8,39 €</p>
                     </div>
-                    <div className="button-single-product d-grid gap-2">
+                    <div className="button-principal d-grid gap-2">
                       <button className="btn btn-primary" style={{background: "#FDBF3A"}} type="button">Ajouter au panier</button>
                     </div>
                   </div>

@@ -6,6 +6,7 @@ import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import SingleProduct from './components/SingleProduct';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="/:id" element={<SingleProduct />} />
+            <Route path="cart" element={<Cart />} />
           </Route>
         </Routes>
       </BrowserRouter>
