@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
@@ -66,9 +66,6 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    À propos
-                  </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
@@ -76,9 +73,9 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                  Compte
-                  </a>
+                  <Link to="login" className="nav-link" >
+                    Compte
+                  </Link>
                 </li>
               </ul>
             </div>
