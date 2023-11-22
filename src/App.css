@@ -228,6 +228,18 @@ footer:not(:first-child) {
   border: 1px solid var(--color-5555555e);
 }
 
+/**** Login page ****/
+.login-wrapper {
+  height: 60vh;
+}
+
+.button-register,
+.login-wrapper .password  {
+  text-decoration: underline;
+  text-align: center;
+  color: black;
+}
+
 /******************************
 ********** Responsive *********
 *******************************/
