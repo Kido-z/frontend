@@ -91,7 +91,7 @@ const Header = () => {
                 </span>
               </button>
             </form>
-            <Link className="cart d-flex align-items-center text-dark">
+            <Link to="/cart" className="cart d-flex align-items-center text-dark">
               <img src="img/cart.svg" alt="Panier" />
               <div className="d-flex flex-column">
                 <span className="badge bg-dark text-white">0</span>

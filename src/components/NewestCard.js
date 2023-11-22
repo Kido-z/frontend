@@ -13,7 +13,7 @@ const NewestCard = () => {
           <h5 className="description-toy">Dès 12 mois</h5>
           <p className="price">22,99 €</p>
         </div>
-        <div className="button-newest d-grid gap-2">
+        <div className="button-principal d-grid gap-2">
           <button className="btn btn-primary" style={{background: "#FDBF3A"}} type="button">Voir</button>
         </div>
       </Link>  
