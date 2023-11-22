@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import SingleProduct from './components/SingleProduct';
 import Cart from './pages/Cart';
+import Signup from './pages/Signup';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Homepage />} />
+            <Route path="signup" element={<Signup />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="/:id" element={<SingleProduct />} />
