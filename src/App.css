@@ -238,6 +238,8 @@ footer:not(:first-child) {
   text-decoration: underline;
   text-align: center;
   color: black;
+}
+  
 /**** Checkout page ****/
 .paiement {
   background-color: var(--color-F9F9F9);
