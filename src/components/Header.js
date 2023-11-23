@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex flex-nowrap justify-content-between">
-          <Link className="header-logo m-4">
+          <Link to="/" className="header-logo m-4">
             <img src="img/logo.svg" alt="Logo Kido'z" />
           </Link>
           <button
@@ -66,9 +66,6 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    À propos
-                  </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
@@ -76,9 +73,9 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                  Compte
-                  </a>
+                  <Link to="login" className="nav-link" >
+                    Compte
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -91,7 +88,7 @@ const Header = () => {
                 </span>
               </button>
             </form>
-            <Link className="cart d-flex align-items-center text-dark">
+            <Link to="/cart" className="cart d-flex align-items-center text-dark">
               <img src="img/cart.svg" alt="Panier" />
               <div className="d-flex flex-column">
                 <span className="badge bg-dark text-white">0</span>
