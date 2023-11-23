@@ -31,7 +31,7 @@ const SingleProduct = () => {
                       <p className="price">8,39 €</p>
                     </div>
                     <div className="button-principal d-grid gap-2">
-                      <button className="btn btn-primary" style={{background: "#FDBF3A"}} type="button">Ajouter au panier</button>
+                      <Link to="/cart" className="btn btn-primary" style={{background: "#FDBF3A"}} type="button">Ajouter au panier</Link>
                     </div>
                   </div>
                 </div>

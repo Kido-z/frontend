@@ -11,6 +11,7 @@ import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Forgetpassword from './pages/Forgotpassword';
 import Checkout from './pages/Checkout';
+import ProductList from './pages/ProductList';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/forgot-password" element={<Forgetpassword />} />
+            <Route path="/jouets" element={<ProductList />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="/:id" element={<SingleProduct />} />

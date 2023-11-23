@@ -24,26 +24,26 @@ const Cart = () => {
                       <img src={jouet7} alt="jouet" className="img-fluid" />
                   </div>
                   <div className="w-75">
-                    <p>fzgebsfndg</p>
-                    <p>bdd</p>
-                    <p>sdfhgf</p>
+                    <p className="fw-bold">Wood N Play</p>
+                    <p>Cagette de fruits et légumes en bois à découper</p>
+                    <p>Dès 18 mois</p>
                   </div>
                   <div>
                     <MdDelete />
                   </div>
                 </div>
                 <div className="cart-col-2">
-                  <h5 className="price">50 euros</h5>
+                  <h5 className="price">8,39 euros</h5>
                 </div>
                 <div className="cart-col-3 d-flex align-items-center gap-15">
-                  <h5 className="title">50 euros</h5>
+                  <h5 className="title">8,39 euros</h5>
                 </div>
               </div>
             </div>
             <div className="col-12 py-2 mt-4">
               <div className="d-flex justify-content-between pe-5 me-5">
                 <h4>Total</h4>
-                <p>50 euros</p>
+                <p>8,39 euros</p>
               </div>
             </div>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-end">
