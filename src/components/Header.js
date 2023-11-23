@@ -36,41 +36,17 @@ const Header = () => {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 fs-5 pe-3 gap-30">
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false" >
-                    Menu
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
+                <li className="nav-item">
+                  <Link to="/jouets" className="nav-link">
+                    Jouets
+                  </Link>
                 </li>
                 <li className="nav-item">
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/" className="nav-link">
                     Contact
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="login" className="nav-link" >
